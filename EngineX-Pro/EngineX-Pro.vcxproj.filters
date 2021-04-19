@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx8.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CRender.cpp">
+      <Filter>Form</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Form</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.cpp">
+      <Filter>Utils\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandler.cpp">
+      <Filter>Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="HookCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_stdlib.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomWidgets.cpp">
+      <Filter>ImGui\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="IatHook.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PageAllocator.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="MemProtector.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="MemAccessor.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="UID.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLog.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="VFuncSwapHook.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="VTableSwapHook.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="HWBreakPointHook.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="AVehHook.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckHook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameFunctions.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFunctionsCustom.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FileExtension.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StringExtension.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtectExtension.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryExtension.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx8.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender.h">
+      <Filter>Form</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Form</Filter>
+    </ClInclude>
+    <ClInclude Include="MainForm.h">
+      <Filter>Form</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Form</Filter>
+    </ClInclude>
+    <ClInclude Include="MathExtension.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptExtension.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StdV80-110.h">
+      <Filter>Utils\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscExtension.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Utils\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Utils\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleIni.h">
+      <Filter>Utils\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatch.h">
+      <Filter>Utils\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayActions.h">
+      <Filter>Utils\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScan.h">
+      <Filter>Utils\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Smietnik.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="TAbstractSingleton.h">
+      <Filter>Utils\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="HookCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiExtension.h">
+      <Filter>Form</Filter>
+    </ClInclude>
+    <ClInclude Include="IAbstractModuleBase.h">
+      <Filter>Core\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.h">
+      <Filter>Utils\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicTimer.h" />
+    <ClInclude Include="Logger.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Locale.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDungs.h">
+      <Filter>Core\Modules\Developer</Filter>
+    </ClInclude>
+    <ClInclude Include="Socks5.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CHANGE_LOG.h" />
+    <ClInclude Include="Security.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="popinsmedium.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="PythonExtension.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessExtension.h" />
+    <ClInclude Include="ImGui\imgui_stdlib.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Core\Modules\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.h">
+      <Filter>Core\Modules\Fishbot</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketSniffer.h">
+      <Filter>Core\Modules\Developer</Filter>
+    </ClInclude>
+    <ClInclude Include="PythonScript.h">
+      <Filter>Core\Modules\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Core\Modules\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Core\Modules\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Farm.h">
+      <Filter>Core\Modules\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Spam.h">
+      <Filter>Core\Modules\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>Core\Modules\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Core\Modules\Developer</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoTalk.h">
+      <Filter>Core\Modules\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff.h">
+      <Filter>Core\Modules\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>Core\Modules\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Core\Modules\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomWidgets.h">
+      <Filter>ImGui\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Core\Modules\Additional</Filter>
+    </ClInclude>
+    <ClInclude Include="IconsFontAwesome5.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="fontawesome.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="VEH.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp" />
+    <ClInclude Include="CheckHook.h" />
+    <ClInclude Include="lazy_importer.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{9e1f9e63-29fe-4f1d-8d6c-ee3a1ee6c5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f12ccb86-c2ab-4b5f-ad90-2e618eb6f406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Modules">
+      <UniqueIdentifier>{6f4ed837-1141-43f6-a90e-8382aed6c732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{0c563931-1248-464b-ad4d-018b6397902f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\Custom">
+      <UniqueIdentifier>{442d0af1-d12f-41a2-9f37-455b6ce04d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form">
+      <UniqueIdentifier>{519f1a77-3132-4970-907e-55f047829ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{c05f3c23-7e53-4507-85f5-87cf26ad0a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Other">
+      <UniqueIdentifier>{d0cbde09-b11d-48b6-996b-1aef9d152f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{32c70d04-5b8e-4841-9eb4-0d4fa951509d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{16f4f4ac-38c9-428e-bed5-2067896f60ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Communication">
+      <UniqueIdentifier>{7f6cf64e-6319-4945-bb48-8f6949aace31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Modules\Main">
+      <UniqueIdentifier>{422c2669-f7b3-4b93-a97e-75493f47e6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Modules\Visuals">
+      <UniqueIdentifier>{799a91c8-32c1-4306-8166-429463694632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Modules\Settings">
+      <UniqueIdentifier>{fd3ed0b7-95d7-4f9b-9d91-264c3d894cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Modules\Additional">
+      <UniqueIdentifier>{8e1142a6-9a02-4e0d-bd90-973d3d8683d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Modules\Developer">
+      <UniqueIdentifier>{f9b160f3-cfcc-4907-a086-478461b2f8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Modules\Fishbot">
+      <UniqueIdentifier>{debeff30-467b-486e-8ed5-5916f47d9805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Modules\Protection">
+      <UniqueIdentifier>{420fae72-65a9-46de-9163-07fb96966534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{9bf2adbc-ba02-4375-8929-6b0882885b44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MultiHackImgui.rc">
+      <Filter>Form</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

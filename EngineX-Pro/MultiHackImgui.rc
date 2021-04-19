@@ -1,0 +1,170 @@
+// Microsoft Visual C++ generated resource script.
+//
+#pragma code_page(65001)
+
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polski (Polska) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG1                RCDATA                     "Resources\\logo.png"
+
+IDB_PNG2                RCDATA                     "Resources\\background2.png"
+
+IDB_PNG3                RCDATA                     "Resources\\window_on.png"
+IDB_PNG4                RCDATA                     "Resources\\window_off.png"
+IDB_PNG5                RCDATA                     "Resources\\radar_on.png"
+IDB_PNG6                RCDATA                     "Resources\\radar_off.png"
+IDB_PNG7                RCDATA                     "Resources\\autologin_on.png"
+IDB_PNG8                RCDATA                     "Resources\\autologin_off.png"
+IDB_PNG9                RCDATA                     "Resources\\fishbot_on.png"
+IDB_PNG10                RCDATA                    "Resources\\fishbot_off.png"
+IDB_PNG11                RCDATA                    "Resources\\mh_on.png"
+IDB_PNG12                RCDATA                    "Resources\\mh_off.png"
+IDB_PNG13                RCDATA                    "Resources\\exit.png"
+IDB_PNG14                RCDATA                    "Resources\\channel.png"
+
+
+IDB_PNG15                RCDATA                    "Resources\\log_on.png"
+IDB_PNG16                RCDATA                    "Resources\\log_off.png"
+IDB_SPLASH               RCDATA                    "Resources\\splash.png"
+IDB_POTION_OFF               RCDATA                    "Resources\\Autopoty_OFF.png"
+IDB_POTION_ON               RCDATA                    "Resources\\Autopoty_ON.png"
+
+
+IDB_MainTab                RCDATA                    "Resources\\Main.png"
+IDB_FishbotTab                RCDATA                    "Resources\\Fishbot.png"
+IDB_AdditionalTab                RCDATA                    "Resources\\Additional.png"
+IDB_VisualsTab                RCDATA                    "Resources\\Visuals.png"
+IDB_ProtectionTab                RCDATA                    "Resources\\Protection.png"
+IDB_SettingsTab                RCDATA                    "Resources\\Settings.png"
+IDB_DeveloperTab                RCDATA                    "Resources\\Developer.png"
+
+
+
+NINJA_A_0               RCDATA                    "Resources\\Skill\\ninja_a_0.png"
+NINJA_A_1               RCDATA                    "Resources\\Skill\\ninja_a_1.png"
+NINJA_A_2               RCDATA                    "Resources\\Skill\\ninja_a_2.png"
+NINJA_A_3               RCDATA                    "Resources\\Skill\\ninja_a_3.png"
+NINJA_A_4               RCDATA                    "Resources\\Skill\\ninja_a_4.png"
+NINJA_A_5               RCDATA                    "Resources\\Skill\\ninja_a_5.png"
+
+NINJA_D_0               RCDATA                    "Resources\\Skill\\ninja_d_0.png"
+NINJA_D_1               RCDATA                    "Resources\\Skill\\ninja_d_1.png"
+NINJA_D_2               RCDATA                    "Resources\\Skill\\ninja_d_2.png"
+NINJA_D_3               RCDATA                    "Resources\\Skill\\ninja_d_3.png"
+NINJA_D_4               RCDATA                    "Resources\\Skill\\ninja_d_4.png"
+NINJA_D_5               RCDATA                    "Resources\\Skill\\ninja_d_5.png"
+
+SHAMAN_D_0              RCDATA                    "Resources\\Skill\\shaman_d_0.png"
+SHAMAN_D_1              RCDATA                    "Resources\\Skill\\shaman_d_1.png"
+SHAMAN_D_2              RCDATA                    "Resources\\Skill\\shaman_d_2.png"
+SHAMAN_D_3              RCDATA                   "Resources\\Skill\\shaman_d_3.png"
+SHAMAN_D_4              RCDATA                    "Resources\\Skill\\shaman_d_4.png"
+SHAMAN_D_5              RCDATA                    "Resources\\Skill\\shaman_d_5.png"
+
+
+SHAMAN_H_0               RCDATA                    "Resources\\Skill\\shaman_h_0.png"
+SHAMAN_H_1               RCDATA                    "Resources\\Skill\\shaman_h_1.png"
+SHAMAN_H_2               RCDATA                    "Resources\\Skill\\shaman_h_2.png"
+SHAMAN_H_3               RCDATA                    "Resources\\Skill\\shaman_h_3.png"
+SHAMAN_H_4               RCDATA                    "Resources\\Skill\\shaman_h_4.png"
+SHAMAN_H_5               RCDATA                    "Resources\\Skill\\shaman_h_5.png"
+
+
+
+SURA_B_0               RCDATA                    "Resources\\Skill\\sura_b_0.png"
+SURA_B_1               RCDATA                    "Resources\\Skill\\sura_b_1.png"
+SURA_B_2               RCDATA                    "Resources\\Skill\\sura_b_2.png"
+SURA_B_3               RCDATA                    "Resources\\Skill\\sura_b_3.png"
+SURA_B_4               RCDATA                    "Resources\\Skill\\sura_b_4.png"
+SURA_B_5               RCDATA                    "Resources\\Skill\\sura_b_5.png"
+
+
+SURA_W_0               RCDATA                    "Resources\\Skill\\sura_w_0.png"
+SURA_W_1               RCDATA                    "Resources\\Skill\\sura_w_1.png"
+SURA_W_2               RCDATA                    "Resources\\Skill\\sura_w_2.png"
+SURA_W_3               RCDATA                    "Resources\\Skill\\sura_w_3.png"
+SURA_W_4               RCDATA                    "Resources\\Skill\\sura_w_4.png"
+SURA_W_5               RCDATA                    "Resources\\Skill\\sura_w_5.png"
+
+
+WARRIOR_B_0               RCDATA                    "Resources\\Skill\\warrior_b_0.png"
+WARRIOR_B_1               RCDATA                    "Resources\\Skill\\warrior_b_1.png"
+WARRIOR_B_2               RCDATA                    "Resources\\Skill\\warrior_b_2.png"
+WARRIOR_B_3               RCDATA                    "Resources\\Skill\\warrior_b_3.png"
+WARRIOR_B_4               RCDATA                    "Resources\\Skill\\warrior_b_4.png"
+WARRIOR_B_5               RCDATA                    "Resources\\Skill\\warrior_b_5.png"
+
+
+
+
+WARRIOR_M_0               RCDATA                   "Resources\\Skill\\warrior_m_0.png"
+WARRIOR_M_1               RCDATA                    "Resources\\Skill\\warrior_m_1.png"
+WARRIOR_M_2               RCDATA                    "Resources\\Skill\\warrior_m_2.png"
+WARRIOR_M_3               RCDATA                    "Resources\\Skill\\warrior_m_3.png"
+WARRIOR_M_4               RCDATA                    "Resources\\Skill\\warrior_m_4.png"
+WARRIOR_M_5               RCDATA                   "Resources\\Skill\\warrior_m_5.png"
+
+SKILL_NONE               RCDATA                    "Resources\\Skill\\skill-none.png"
+SKILL_ON               RCDATA                    "Resources\\Skill\\skill-on.png"
+SKILL_OFF               RCDATA                   "Resources\\Skill\\skill-off.png"
+#endif    // Polski (Polska) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
