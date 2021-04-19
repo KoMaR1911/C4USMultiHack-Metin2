@@ -4,7 +4,7 @@ Self leaked
 
 This is source from Metin2 - C4US.PL
 
-Specially credits to people without this source doesnt exist:
+Special credits to without them this source wouldn't have existed
 
     EroS
     Seremo
