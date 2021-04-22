@@ -15,7 +15,4 @@ This source is created by C4US.PL
 this source have included exploits: 
 - Deadly Cloud (DMG Hack works on 90% servers)
 - Instant fishing for Global (u can fish without any limit)
-
-
-What exploits u can add?
-- Check sync packet and how it works u can teleport any player where u want
+- Check sync packet and how it works u can teleport any player where u want (named "Przyciaganie" / "Odpychanie" in waithack tab in cheat)
