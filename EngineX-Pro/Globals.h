@@ -1233,6 +1233,7 @@ void Globals::ReAddressingLocas()
 		pCPythonNetworkStreamSendExchangeItemAddPacket = Globals::hEntryBaseAddress + 0x200e10; // [100 ] [1 / 1]
 		pCPythonNetworkStreamSendExchangeStartPacket = Globals::hEntryBaseAddress + 0x200ca0; // [100 ] [1 / 1]
 		pCPythonNetworkStreamSendFishingPacket = Globals::hEntryBaseAddress + 0x206d50; // [100 ] [1 / 1]
+		pCPythonNetworkStreamSendFishingQuitPacket = Globals::hEntryBaseAddress + 0x206e40;
 		pCPythonNetworkStreamSendGiveItemPacket = Globals::hEntryBaseAddress + 0x206ec0; // [100 ] [1 / 1]
 		pCPythonNetworkStreamSendItemDropPacketNew = Globals::hEntryBaseAddress + 0x222680; // [100 ] [1 / 1]
 		pCPythonNetworkStreamSendItemMovePacket = Globals::hEntryBaseAddress + 0x2228b0; // [100 ] [1 / 1]
