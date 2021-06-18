@@ -20,3 +20,6 @@ this source have included exploits:
 [18.06.2021]
 UPDATED!!!
 All exploit works after 18.06.2021 update! :)
+
+
+You have to clone git and compile the dll
