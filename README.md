@@ -17,7 +17,6 @@ this source have included exploits:
 - Instant fishing for Global (u can fish without any limit)
 - Check sync packet and how it works u can teleport any player where u want (named "Przyciaganie" / "Odpychanie" in waithack tab in cheat)
 
-[14.06.2021]
+[18.06.2021]
 UPDATED!!!
-
-All exploits still works :) XD
+All exploit works after 18.06.2021 update! :)
