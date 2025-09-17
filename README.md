@@ -25,3 +25,17 @@ All exploit works after 18.06.2021 update! :)
 You have to clone git and compile the dll
 
 I DONT HELP WITH COMPILE!!! DONT SEND PM TO ME ...
+
+DX8 FIX - 
+[FIX] – TestCooperativeLevel
+[FIX] – Dynamic Vertex Buffer
+[FIX] – Dynamic Index Buffer
+[FIX] – Backup and Restore Device State
+[FIX] – Clip Rect (stencil-based)
+[FIX] – Vertex Color Conversion
+[FIX] – Render Target + DepthStencil Handling
+[FIX] – Lock / Unlock Buffers
+[FIX] – DrawIndexedPrimitive Handling
+[FIX] – Vertex Shader / FVF
+[FIX] – Device Lost / Minimized Scenarios Handling
+[FIX] – Cleanup / Release in Every Error Path
